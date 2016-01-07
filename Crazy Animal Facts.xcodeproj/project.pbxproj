@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B5CB6411C3ED9F500E63457 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5CB6401C3ED9F500E63457 /* AppDelegate.swift */; };
+		9B5CB6431C3ED9F500E63457 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5CB6421C3ED9F500E63457 /* ViewController.swift */; };
+		9B5CB6461C3ED9F500E63457 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B5CB6441C3ED9F500E63457 /* Main.storyboard */; };
+		9B5CB6481C3ED9F500E63457 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B5CB6471C3ED9F500E63457 /* Assets.xcassets */; };
+		9B5CB64B1C3ED9F500E63457 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B5CB6491C3ED9F500E63457 /* LaunchScreen.storyboard */; };
+		9B5CB6561C3ED9F600E63457 /* Crazy_Animal_FactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5CB6551C3ED9F600E63457 /* Crazy_Animal_FactsTests.swift */; };
+		9B5CB6611C3ED9F600E63457 /* Crazy_Animal_FactsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5CB6601C3ED9F600E63457 /* Crazy_Animal_FactsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B5CB6521C3ED9F600E63457 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B5CB6351C3ED9F500E63457 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B5CB63C1C3ED9F500E63457;
+			remoteInfo = "Crazy Animal Facts";
+		};
+		9B5CB65D1C3ED9F600E63457 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B5CB6351C3ED9F500E63457 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B5CB63C1C3ED9F500E63457;
+			remoteInfo = "Crazy Animal Facts";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9B5CB63D1C3ED9F500E63457 /* Crazy Animal Facts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crazy Animal Facts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B5CB6401C3ED9F500E63457 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9B5CB6421C3ED9F500E63457 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9B5CB6451C3ED9F500E63457 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B5CB6471C3ED9F500E63457 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B5CB64A1C3ED9F500E63457 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B5CB64C1C3ED9F500E63457 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B5CB6511C3ED9F600E63457 /* Crazy Animal FactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Crazy Animal FactsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B5CB6551C3ED9F600E63457 /* Crazy_Animal_FactsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crazy_Animal_FactsTests.swift; sourceTree = "<group>"; };
+		9B5CB6571C3ED9F600E63457 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B5CB65C1C3ED9F600E63457 /* Crazy Animal FactsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Crazy Animal FactsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B5CB6601C3ED9F600E63457 /* Crazy_Animal_FactsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crazy_Animal_FactsUITests.swift; sourceTree = "<group>"; };
+		9B5CB6621C3ED9F600E63457 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B5CB63A1C3ED9F500E63457 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B5CB64E1C3ED9F600E63457 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B5CB6591C3ED9F600E63457 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B5CB6341C3ED9F500E63457 = {
+			isa = PBXGroup;
+			children = (
+				9B5CB63F1C3ED9F500E63457 /* Crazy Animal Facts */,
+				9B5CB6541C3ED9F600E63457 /* Crazy Animal FactsTests */,
+				9B5CB65F1C3ED9F600E63457 /* Crazy Animal FactsUITests */,
+				9B5CB63E1C3ED9F500E63457 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B5CB63E1C3ED9F500E63457 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B5CB63D1C3ED9F500E63457 /* Crazy Animal Facts.app */,
+				9B5CB6511C3ED9F600E63457 /* Crazy Animal FactsTests.xctest */,
+				9B5CB65C1C3ED9F600E63457 /* Crazy Animal FactsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B5CB63F1C3ED9F500E63457 /* Crazy Animal Facts */ = {
+			isa = PBXGroup;
+			children = (
+				9B5CB6401C3ED9F500E63457 /* AppDelegate.swift */,
+				9B5CB6421C3ED9F500E63457 /* ViewController.swift */,
+				9B5CB6441C3ED9F500E63457 /* Main.storyboard */,
+				9B5CB6471C3ED9F500E63457 /* Assets.xcassets */,
+				9B5CB6491C3ED9F500E63457 /* LaunchScreen.storyboard */,
+				9B5CB64C1C3ED9F500E63457 /* Info.plist */,
+			);
+			path = "Crazy Animal Facts";
+			sourceTree = "<group>";
+		};
+		9B5CB6541C3ED9F600E63457 /* Crazy Animal FactsTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B5CB6551C3ED9F600E63457 /* Crazy_Animal_FactsTests.swift */,
+				9B5CB6571C3ED9F600E63457 /* Info.plist */,
+			);
+			path = "Crazy Animal FactsTests";
+			sourceTree = "<group>";
+		};
+		9B5CB65F1C3ED9F600E63457 /* Crazy Animal FactsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9B5CB6601C3ED9F600E63457 /* Crazy_Animal_FactsUITests.swift */,
+				9B5CB6621C3ED9F600E63457 /* Info.plist */,
+			);
+			path = "Crazy Animal FactsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B5CB63C1C3ED9F500E63457 /* Crazy Animal Facts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B5CB6651C3ED9F600E63457 /* Build configuration list for PBXNativeTarget "Crazy Animal Facts" */;
+			buildPhases = (
+				9B5CB6391C3ED9F500E63457 /* Sources */,
+				9B5CB63A1C3ED9F500E63457 /* Frameworks */,
+				9B5CB63B1C3ED9F500E63457 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Crazy Animal Facts";
+			productName = "Crazy Animal Facts";
+			productReference = 9B5CB63D1C3ED9F500E63457 /* Crazy Animal Facts.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B5CB6501C3ED9F600E63457 /* Crazy Animal FactsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B5CB6681C3ED9F600E63457 /* Build configuration list for PBXNativeTarget "Crazy Animal FactsTests" */;
+			buildPhases = (
+				9B5CB64D1C3ED9F600E63457 /* Sources */,
+				9B5CB64E1C3ED9F600E63457 /* Frameworks */,
+				9B5CB64F1C3ED9F600E63457 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B5CB6531C3ED9F600E63457 /* PBXTargetDependency */,
+			);
+			name = "Crazy Animal FactsTests";
+			productName = "Crazy Animal FactsTests";
+			productReference = 9B5CB6511C3ED9F600E63457 /* Crazy Animal FactsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9B5CB65B1C3ED9F600E63457 /* Crazy Animal FactsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B5CB66B1C3ED9F600E63457 /* Build configuration list for PBXNativeTarget "Crazy Animal FactsUITests" */;
+			buildPhases = (
+				9B5CB6581C3ED9F600E63457 /* Sources */,
+				9B5CB6591C3ED9F600E63457 /* Frameworks */,
+				9B5CB65A1C3ED9F600E63457 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B5CB65E1C3ED9F600E63457 /* PBXTargetDependency */,
+			);
+			name = "Crazy Animal FactsUITests";
+			productName = "Crazy Animal FactsUITests";
+			productReference = 9B5CB65C1C3ED9F600E63457 /* Crazy Animal FactsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B5CB6351C3ED9F500E63457 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Xiran Ou";
+				TargetAttributes = {
+					9B5CB63C1C3ED9F500E63457 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = CQ7N2Y83C6;
+					};
+					9B5CB6501C3ED9F600E63457 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = CQ7N2Y83C6;
+						TestTargetID = 9B5CB63C1C3ED9F500E63457;
+					};
+					9B5CB65B1C3ED9F600E63457 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = CQ7N2Y83C6;
+						TestTargetID = 9B5CB63C1C3ED9F500E63457;
+					};
+				};
+			};
+			buildConfigurationList = 9B5CB6381C3ED9F500E63457 /* Build configuration list for PBXProject "Crazy Animal Facts" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B5CB6341C3ED9F500E63457;
+			productRefGroup = 9B5CB63E1C3ED9F500E63457 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B5CB63C1C3ED9F500E63457 /* Crazy Animal Facts */,
+				9B5CB6501C3ED9F600E63457 /* Crazy Animal FactsTests */,
+				9B5CB65B1C3ED9F600E63457 /* Crazy Animal FactsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B5CB63B1C3ED9F500E63457 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B5CB64B1C3ED9F500E63457 /* LaunchScreen.storyboard in Resources */,
+				9B5CB6481C3ED9F500E63457 /* Assets.xcassets in Resources */,
+				9B5CB6461C3ED9F500E63457 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B5CB64F1C3ED9F600E63457 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B5CB65A1C3ED9F600E63457 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B5CB6391C3ED9F500E63457 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B5CB6431C3ED9F500E63457 /* ViewController.swift in Sources */,
+				9B5CB6411C3ED9F500E63457 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B5CB64D1C3ED9F600E63457 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B5CB6561C3ED9F600E63457 /* Crazy_Animal_FactsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B5CB6581C3ED9F600E63457 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B5CB6611C3ED9F600E63457 /* Crazy_Animal_FactsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B5CB6531C3ED9F600E63457 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B5CB63C1C3ED9F500E63457 /* Crazy Animal Facts */;
+			targetProxy = 9B5CB6521C3ED9F600E63457 /* PBXContainerItemProxy */;
+		};
+		9B5CB65E1C3ED9F600E63457 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B5CB63C1C3ED9F500E63457 /* Crazy Animal Facts */;
+			targetProxy = 9B5CB65D1C3ED9F600E63457 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9B5CB6441C3ED9F500E63457 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B5CB6451C3ED9F500E63457 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9B5CB6491C3ED9F500E63457 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B5CB64A1C3ED9F500E63457 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B5CB6631C3ED9F600E63457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9B5CB6641C3ED9F600E63457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B5CB6661C3ED9F600E63457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Crazy Animal Facts/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiranou.Crazy-Animal-Facts";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9B5CB6671C3ED9F600E63457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Crazy Animal Facts/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiranou.Crazy-Animal-Facts";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9B5CB6691C3ED9F600E63457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Crazy Animal FactsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiranou.Crazy-Animal-FactsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Crazy Animal Facts.app/Crazy Animal Facts";
+			};
+			name = Debug;
+		};
+		9B5CB66A1C3ED9F600E63457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Crazy Animal FactsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiranou.Crazy-Animal-FactsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Crazy Animal Facts.app/Crazy Animal Facts";
+			};
+			name = Release;
+		};
+		9B5CB66C1C3ED9F600E63457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Crazy Animal FactsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiranou.Crazy-Animal-FactsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Crazy Animal Facts";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9B5CB66D1C3ED9F600E63457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Crazy Animal FactsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiranou.Crazy-Animal-FactsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Crazy Animal Facts";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B5CB6381C3ED9F500E63457 /* Build configuration list for PBXProject "Crazy Animal Facts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B5CB6631C3ED9F600E63457 /* Debug */,
+				9B5CB6641C3ED9F600E63457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B5CB6651C3ED9F600E63457 /* Build configuration list for PBXNativeTarget "Crazy Animal Facts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B5CB6661C3ED9F600E63457 /* Debug */,
+				9B5CB6671C3ED9F600E63457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9B5CB6681C3ED9F600E63457 /* Build configuration list for PBXNativeTarget "Crazy Animal FactsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B5CB6691C3ED9F600E63457 /* Debug */,
+				9B5CB66A1C3ED9F600E63457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9B5CB66B1C3ED9F600E63457 /* Build configuration list for PBXNativeTarget "Crazy Animal FactsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B5CB66C1C3ED9F600E63457 /* Debug */,
+				9B5CB66D1C3ED9F600E63457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B5CB6351C3ED9F500E63457 /* Project object */;
+}
