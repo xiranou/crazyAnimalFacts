@@ -14,6 +14,10 @@
 		9B5CB64B1C3ED9F500E63457 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B5CB6491C3ED9F500E63457 /* LaunchScreen.storyboard */; };
 		9B5CB6561C3ED9F600E63457 /* Crazy_Animal_FactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5CB6551C3ED9F600E63457 /* Crazy_Animal_FactsTests.swift */; };
 		9B5CB6611C3ED9F600E63457 /* Crazy_Animal_FactsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5CB6601C3ED9F600E63457 /* Crazy_Animal_FactsUITests.swift */; };
+		9B5CB6721C3EDC7A00E63457 /* banner@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B5CB66F1C3EDC7A00E63457 /* banner@2x.png */; };
+		9B5CB6731C3EDC7A00E63457 /* Cat2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B5CB6701C3EDC7A00E63457 /* Cat2.png */; };
+		9B5CB6741C3EDC7A00E63457 /* shattered_@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B5CB6711C3EDC7A00E63457 /* shattered_@2X.png */; };
+		9B5CB6761C3EF64F00E63457 /* Facts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5CB6751C3EF64F00E63457 /* Facts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		9B5CB65C1C3ED9F600E63457 /* Crazy Animal FactsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Crazy Animal FactsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B5CB6601C3ED9F600E63457 /* Crazy_Animal_FactsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crazy_Animal_FactsUITests.swift; sourceTree = "<group>"; };
 		9B5CB6621C3ED9F600E63457 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B5CB66F1C3EDC7A00E63457 /* banner@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "banner@2x.png"; sourceTree = "<group>"; };
+		9B5CB6701C3EDC7A00E63457 /* Cat2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cat2.png; sourceTree = "<group>"; };
+		9B5CB6711C3EDC7A00E63457 /* shattered_@2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shattered_@2X.png"; sourceTree = "<group>"; };
+		9B5CB6751C3EF64F00E63457 /* Facts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Facts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +108,8 @@
 				9B5CB6401C3ED9F500E63457 /* AppDelegate.swift */,
 				9B5CB6421C3ED9F500E63457 /* ViewController.swift */,
 				9B5CB6441C3ED9F500E63457 /* Main.storyboard */,
+				9B5CB6751C3EF64F00E63457 /* Facts.swift */,
+				9B5CB66E1C3EDC7A00E63457 /* Images */,
 				9B5CB6471C3ED9F500E63457 /* Assets.xcassets */,
 				9B5CB6491C3ED9F500E63457 /* LaunchScreen.storyboard */,
 				9B5CB64C1C3ED9F500E63457 /* Info.plist */,
@@ -123,6 +133,16 @@
 				9B5CB6621C3ED9F600E63457 /* Info.plist */,
 			);
 			path = "Crazy Animal FactsUITests";
+			sourceTree = "<group>";
+		};
+		9B5CB66E1C3EDC7A00E63457 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9B5CB66F1C3EDC7A00E63457 /* banner@2x.png */,
+				9B5CB6701C3EDC7A00E63457 /* Cat2.png */,
+				9B5CB6711C3EDC7A00E63457 /* shattered_@2X.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,7 +252,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B5CB6721C3EDC7A00E63457 /* banner@2x.png in Resources */,
 				9B5CB64B1C3ED9F500E63457 /* LaunchScreen.storyboard in Resources */,
+				9B5CB6731C3EDC7A00E63457 /* Cat2.png in Resources */,
+				9B5CB6741C3EDC7A00E63457 /* shattered_@2X.png in Resources */,
 				9B5CB6481C3ED9F500E63457 /* Assets.xcassets in Resources */,
 				9B5CB6461C3ED9F500E63457 /* Main.storyboard in Resources */,
 			);
@@ -260,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B5CB6431C3ED9F500E63457 /* ViewController.swift in Sources */,
+				9B5CB6761C3EF64F00E63457 /* Facts.swift in Sources */,
 				9B5CB6411C3ED9F500E63457 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
